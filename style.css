@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(-45deg, #dcd6e9, #5f4b8b, #8570b2, #ffffff);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  font-family: "Space Mono", monospace;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+.container {
+  border-radius: 5px;
+  background: #ffffff;
+  color: #1c1c1c;
+  margin: 64px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.dark .container {
+  border-radius: 5px;
+  background: #323232;
+  color: #ffffff;
+  margin: 64px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.dark .button {
+  background-color: #323232;
+  border: none;
+  color: #ffffff;
+  width: 200px;
+  height: 80px;
+  padding: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.dark .button:hover {
+  background-color: #ffffff;
+  color: #323232;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 300px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 24px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(45deg, #dcd6e9, #5f4b8b, #8570b2, #ffffff);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  margin-top: 35px;
+  padding: 20px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.button {
+  border: none;
+  color: black;
+  width: 200px;
+  height: 80px;
+  padding: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 26px;
+}
